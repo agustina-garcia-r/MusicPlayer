@@ -31,12 +31,12 @@ document.addEventListener('DOMContentLoaded', function () {
             currentAudio = audio2;
             titulo.textContent = 'Forest Lullaby';
             autor.textContent = 'Lesfm';
-            imagen.src = '/dccl--javascript-music-player/cover-2.png';
+            imagen.src = '/cover-2.png';
         } else {
             currentAudio = audio;
             titulo.textContent = 'Lost in the City Lights';
             autor.textContent = 'Cosmo Sheldrake';
-            imagen.src = '/dccl--javascript-music-player/cover-1.png';
+            imagen.src = '/cover-1.png';
         }
     }
 
