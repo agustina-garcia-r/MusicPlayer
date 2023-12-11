@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+<script src="/dccl--javascript-music-player/script2.js"></script>
+    <title>Mi Spotify!</title>
+</head>
+<body>
+   
+     <div id="fondogris"> 
+        
+        
+            <img class="fondogris" src="/dccl--javascript-music-player/cover-2.png" alt="">
+        <h5 id="title">Forest Lullaby</h5>
+        <h6 id="author">Lesfm</h6>
+        
+            <img id="iconos" src="/dccl--javascript-music-player/Stop_and_play_fill.svg"  alt="">
+
+            <img id="iconos2" src="/dccl--javascript-music-player/Stop_and_play_fill_reverse.svg"
+            alt="">
+        
+            
+           <div id="iconos3">
+
+           </div>
+
+<div id="lineareproduccionrosada">
+    
+</div>
+<div id="lineareproduccionblanca">
+    
+</div>
+<p id="inicio">02:23</p>
+<p id="final">03:15</p>
+
+<div id="fondo">
+    
+</div> 
+
+  <img id="iconodeplay"  src="/dccl--javascript-music-player/Play_fill.svg"
+    alt="" width="55" height="55">
+
+    <img id="pausa" class="oculta" src="/dccl--javascript-music-player/Pause_fill.svg"
+    alt="" >
+        <audio src="forest-lullaby-110624.mp3" id="audio2"></audio>
+
+
+<input type="range" value="0" id="barprogress">
+
+    </div>
+</body>
+
+<style>
+    body{
+
+        background-image: url(/dccl--javascript-music-player/bg.jpg);
+    }
+img {
+    width: 320px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    
+    
+}
+
+#fondogris {
+
+    background-color: #121826a6;
+    width:360px;
+    height: 540px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+
+}
+
+#title {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#author {
+text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: -20px;
+}
+
+#iconos {
+    margin-top: 60px;
+margin-left: 100px;
+    width: 42px;
+    height: 42px;
+}
+
+#iconos2 {
+    position: relative;
+    top: -77px;
+margin-left: 230px;
+    width: 42px;
+    height: 42px;
+}
+
+
+#lineareproduccionrosada {
+    position: relative;
+    height: 5px;
+    width: 190px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: #C93B76;  
+    border-radius: 50px;
+    margin-top: -170px;
+}
+
+#lineareproduccionblanca {
+    display: flex;
+    position: relative;
+    height: 5px;
+    width: 135px;
+    margin-left: 205px;
+    border-radius: 50px;
+    background-color: #E5E7EB;  
+    border-radius: 50px;
+    margin-top: -5px; 
+}
+
+#fondo {
+    position: relative;
+    top: -155px;
+margin-left: 160px;
+    width: 55px;
+    height: 55px;
+    background-color: #C93B76;
+    border-radius: 50px;
+    margin-top:196px;
+z-index: 1;
+}
+
+
+#iconodeplay  {
+    position: absolute;
+    top: 573px;
+    left: 603px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    
+}
+
+#inicio {
+
+
+    font-family: 'Inter', sans-serif;
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+#final {
+
+
+font-family: 'Inter', sans-serif;
+color: rgb(129, 129, 129);
+font-size: 12px;
+font-weight: 200;
+margin-top: -28px;
+margin-left: 310px;
+}
+
+#barprogress {
+    -webkit-appearance: none ; 
+    appearance: none;
+        height: 5px;
+        width: 190px;
+        margin-left: 20px;
+        border-radius: 50px;
+        margin-top: -170px;
+         background: linear-gradient(to right, #E5E7EB 0%, #E5E7EB 100%); 
+    }
+
+    #barprogress::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        background: #C93B76;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    
+    .oculta {
+  display: none;
+}
+
+#pausa {
+    position: absolute;
+    top: 583px;
+    left: 613px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+
+}
+
+
+
+</style>
+</html> 
